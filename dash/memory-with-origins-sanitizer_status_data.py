@@ -1,1 +1,1 @@
-memory_with_origins_sanitizer_build_states = [{"run_id": "41737782717", "state": "fail", "date": "2026-11-03", "time": "23:19", "arch": "all", "branch": "main"}]
+memory_with_origins_sanitizer_build_states = [{"run_id": "41737782717", "state": "pass", "date": "2026-11-03", "time": "23:19", "arch": "all", "branch": "main"}]
