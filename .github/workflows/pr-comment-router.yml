@@ -407,6 +407,7 @@ jobs:
       pr_number: ${{ needs.validate.outputs.pr_number }}
       pr_sha: ${{ needs.validate.outputs.pr_sha }}
     permissions:
+      actions: write
       contents: write
 
   macos_test:
