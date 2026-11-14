@@ -67,7 +67,7 @@ jobs:
             const command = (isWorkflowDispatch
               ? process.env.INPUT_COMMAND
               : process.env.COMMENT_BODY.trim()).trim();
-            const allowed = new Set(['COLLABORATOR', 'MEMBER', 'OWNER']);
+            const allowed = new Set(['COLLABORATOR', 'MEMBER']);
             const supported = new Set([
               'check-llvm-test-suite',
               'check-linux-kernel',
