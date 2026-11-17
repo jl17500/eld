@@ -38,7 +38,7 @@ permissions:
 
 jobs:
   validate:
-    if: github.repository == 'qualcomm/eld' && (github.event_name == 'workflow_dispatch' || github.event.issue.pull_request != null)
+    if: github.repository == 'jl17500/eld' && (github.event_name == 'workflow_dispatch' || github.event.issue.pull_request != null)
     runs-on: ubuntu-latest
     outputs:
       pr_number: ${{ steps.request.outputs.pr_number }}
